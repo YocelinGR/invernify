@@ -1,0 +1,17 @@
+body{
+    background-image: url(/images/calabaza.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 10rem;
+   }
+
+.navbar-brand{
+    color: bisque !important;
+    font-size: 2rem;
+    font-family: fantasy;
+    text-align-last: center !important;
+}
+
+
+
+
