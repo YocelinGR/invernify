@@ -1,9 +1,9 @@
 $('[data-veggie-modal]').on("click", function(event){
     event.preventDefault();
     swal({
-        title: 'Jitomate',
+        title: $(this).find('p').text(),
         text: 'Sabías que la temperatura óptima, de desarrollo del cultivo de tomate oscila entre los 20 y 30° C durante el día y entre 10 y 17° C durante la noche. Las temperaturas superiores a los 35° C impactan negativamente sobre el desarrollo de los óvulos fecundados y, por ende, afectan el crecimiento de los frutos. ',
-        icon: 'https://user-images.githubusercontent.com/39841876/49450316-59e8ed00-f7a2-11e8-9537-10c8236009fb.png',
+        icon: $(this).find('img').attr('src'),
         imageWidth: 50,
         imageHeight: 50,
       
