@@ -9,6 +9,7 @@ import RouteWithLayout from "./components/common/route-with-layout";
 import DebugPlaygroundPage from "./components/pages/debug-playground-page";
 import AdminCreatePostPage from "../admin/components/pages/admin-create-post-page";
 import AdminLayout from "../admin/components/layouts/admin-layout";
+import HumiditySample from "./components/pages/humidity-sample";
 
 /**
  * Component that holds all the routes of the app.
@@ -18,6 +19,7 @@ const AppRoutes = () => (
     <BrowserRouter>
         <Switch>
             <RouteWithLayout path='/' exact component={HomePage} layout={DefaultLayoutComponent}/>
+            <RouteWithLayout path='/humidity-sample' exact component={HumiditySample} layout={DefaultLayoutComponent}/>
             <RouteWithLayout path='/404' exact component={Error404Page}/>
             <RouteWithLayout path='/about' exact component={AboutPage} layout={DefaultLayoutComponent}/>
             <RouteWithLayout path='/admin/post/new' exact component={AdminCreatePostPage} layout={AdminLayout}/>
