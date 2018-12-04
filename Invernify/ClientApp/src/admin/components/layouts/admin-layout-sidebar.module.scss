@@ -1,0 +1,14 @@
+@import "../../../common/themes/default/styles/include";
+
+.ctn {
+  width: 0; // By default, sidebar is closed.
+  background-color: $headerBackgroundColor;
+  color: $headerColor;
+  display: flex;
+  flex-direction: column;
+  transition: $hugeElementTransition;
+}
+
+.open {
+  width: 190px;
+}
