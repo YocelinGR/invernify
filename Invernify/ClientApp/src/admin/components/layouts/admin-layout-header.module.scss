@@ -1,0 +1,39 @@
+@import "../../../common/themes/default/styles/include";
+
+.ctn {
+  background-color: $headerBackgroundColor;
+  color: $headerColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0px 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.burger {
+  @extend .icon;
+}
+
+.user {
+  height: 40px;
+  width: 40px;
+  background: white;
+  display: inline-block;
+}

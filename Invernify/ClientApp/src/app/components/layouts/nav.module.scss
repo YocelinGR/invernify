@@ -1,0 +1,32 @@
+@import "../../../common/themes/default/styles/include";
+
+.ctn {
+  background-color: $headerBackgroundColor;
+  color: $headerColor;
+  text-shadow: 1px 1px 1px #8c8c8cbf;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+.links {
+  _: _;
+}
+
+.link {
+  _: _;
+}
+
+.burger {
+  _: _;
+}
+
+.logo {
+  font-size: 2.2em;
+}
+
+.search {
+  _: _;
+}
