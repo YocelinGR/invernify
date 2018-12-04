@@ -3,8 +3,8 @@ let verdura = document.getElementById("verdura");
 verdura.addEventListener("click", function(event){
     event.preventDefault();
     swal({
-        title: 'Calabaza',
-        text: 'Sabías que el peso comercial varia de 1.2 a 1.5 kg, pero puede llegar a pesar hasta 3.5 kg. El ciclo del cultivo varía de 90 a 120 días. El corte del fruto se lleva a cabo cuando está completamente maduro .',
+        title: 'Jitomate',
+        text: 'Sabías que la temperatura óptima, de desarrollo del cultivo de tomate oscila entre los 20 y 30° C durante el día y entre 10 y 17° C durante la noche. Las temperaturas superiores a los 35° C impactan negativamente sobre el desarrollo de los óvulos fecundados y, por ende, afectan el crecimiento de los frutos. ',
         icon: 'https://github.com/JudithCortes/invernify/issues/1',
         imageWidth: 400,
         imageHeight: 200,
