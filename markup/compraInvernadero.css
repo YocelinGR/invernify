@@ -1,12 +1,23 @@
-h1 {
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+    .navbar {
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: #6ea59a;
+    color: white;
+} 
+.navbar span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.4em;
 }
 p {
+    margin-top: 15px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-size: 1em;
 }
 .card-img-top {
     width: 100%;
@@ -14,6 +25,9 @@ p {
 }
 .card a {
     width: 100%;
+    background-color: #6ea59a;
+    color: white;
+    border: #6ea59a;
 }
 .card h6 {
     text-align: center;
@@ -23,13 +37,18 @@ p {
 }
 .row {
     margin-right: 0px;
-margin-left: 0px;
+    margin-left: 0px;
 }
 .card {
-    height: 52vh;
+    height: 45vh;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 } 
 .btn-adapt {
-    margin-top: 15px;
+    margin-top: 38px;
+}
+
+.btn-adapted {
+    margin-top: 48px;
 }
