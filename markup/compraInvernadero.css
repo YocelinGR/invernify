@@ -40,15 +40,44 @@ p {
     margin-left: 0px;
 }
 .card {
-    height: 45vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
     text-align: justify;
+    box-sizing: border-box;
 } 
-.btn-adapt {
-    margin-top: 38px;
+.card-body img {
+    width: 2.5em;;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.text-intr p {
+    font-size: 1em;
+}
+#automatico {
+    width: 3.5em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
-.btn-adapted {
-    margin-top: 48px;
+.btn-one{
+    margin-top: 15px;
+}
+@media only screen and (max-width: 1012px){
+    .btn-one{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 952px){
+    .btn-two{
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .card {
+        height: 50vh;
+    } 
 }
