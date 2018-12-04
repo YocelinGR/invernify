@@ -1,0 +1,31 @@
+.ctn {
+    background-color: #111;
+    font-size: 12px;
+    padding: 20px;
+    border-top: 1px solid #444;
+}
+
+.links {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    li {
+      display: inline-block;
+      margin: 0;
+      line-height: 18px;
+    }
+    a {
+      color: white;
+      margin-right: 8px;
+      margin-left: 8px;
+      line-height: 18px;
+      display: inline-block;
+      text-decoration: none;
+    }
+}
+
+.copyright {
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+
+.btn-warning{
+    background-color: rgb(110, 165, 154);
+    border-color: rgb(110, 165, 154);
+    margin-top: 10%;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+
+.bg-light {
+    background-color:rgb(110, 165, 154)!important;
+}
