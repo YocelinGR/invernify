@@ -1,6 +1,4 @@
-let verdura = document.getElementById("verdura");
-
-verdura.addEventListener("click", function(event){
+$('[data-veggie-modal]').on("click", function(event){
     event.preventDefault();
     swal({
         title: 'Jitomate',
