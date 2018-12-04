@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+.carousel img {
+    height: 60vh;
+    width: 50%;
+}
+.carousel {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#carouselExampleIndicators {
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
