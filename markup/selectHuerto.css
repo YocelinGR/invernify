@@ -1,1 +1,7 @@
- 
+.container {
+    padding: 10%;
+} 
+
+div {
+    padding: 5%;
+}
