@@ -1,13 +1,23 @@
-// CSS
-h1 {
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+    .navbar {
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: #6ea59a;
+    color: white;
+} 
+.navbar span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.4em;
 }
 p {
+    margin-top: 15px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-size: 1em;
 }
 .card-img-top {
     width: 100%;
@@ -15,6 +25,9 @@ p {
 }
 .card a {
     width: 100%;
+    background-color: #6ea59a;
+    color: white;
+    border: #6ea59a;
 }
 .card h6 {
     text-align: center;
@@ -24,13 +37,47 @@ p {
 }
 .row {
     margin-right: 0px;
-margin-left: 0px;
+    margin-left: 0px;
 }
 .card {
-    height: 52vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
+    text-align: justify;
+    box-sizing: border-box;
 } 
-.btn-adapt {
+.card-body img {
+    width: 2.5em;;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.text-intr p {
+    font-size: 1em;
+}
+#automatico {
+    width: 3.5em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-one{
     margin-top: 15px;
+}
+@media only screen and (max-width: 1012px){
+    .btn-one{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 952px){
+    .btn-two{
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .card {
+        height: 50vh;
+    } 
 }

@@ -1,19 +1,5 @@
-.bg-light {
-    background-color:rgb(110, 165, 154)!important;
-}
-
-h4 {
+h1 {
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-
-td {
-    text-align: center;
-}
-
-.table {
-margin-top: 2%;
-}
-
-h4 {
-    margin-top: 5%;
-    }
