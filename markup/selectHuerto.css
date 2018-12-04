@@ -9,3 +9,13 @@ div {
 .card {
     margin-top: 0%;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(110, 165, 154);
+    border-color:rgb(110, 165, 154);
+}
+
+.bg-light {
+    background-color:rgb(110, 165, 154)!important;
+}
