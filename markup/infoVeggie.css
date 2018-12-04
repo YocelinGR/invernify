@@ -1,8 +1,8 @@
-body{
-    background-image: url(/images/calabaza.png);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 10rem;
+#verdura{
+background-position-x: center;
+background-position-y: center;
+ /* padding: 20rem; */
+
    }
 
 .navbar-brand{
@@ -11,7 +11,25 @@ body{
     font-family: fantasy;
     text-align-last: center !important;
 }
-
+.row{
+    position: relative;
+   
+    width: 100px;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.imagen{
+    position: absolute;
+    width: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
 
 
 
