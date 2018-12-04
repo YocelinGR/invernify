@@ -1,3 +1,18 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+    .navbar {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #6ea59a;
+    color: white;
+    width: 100%;
+} 
+.navbar span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.4em;
+}
 h1 {
     text-align: center;
     margin: 30px;
@@ -14,6 +29,7 @@ h1 {
 #carouselExampleIndicators {
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 button {
     margin: 20px;
@@ -21,4 +37,8 @@ button {
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: #6ea59a;
+}
+.carousel slide {
+    margin-bottom: 30px;
 }
