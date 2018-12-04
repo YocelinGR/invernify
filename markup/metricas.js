@@ -1,0 +1,1 @@
+var humedad = 350;
