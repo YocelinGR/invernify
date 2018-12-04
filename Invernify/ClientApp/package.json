@@ -5,6 +5,7 @@
   "dependencies": {
     "@jpavon/react-scripts-ts": "0.9.0",
     "@types/marked": "^0.4.2",
+    "@types/react-helmet": "^5.0.7",
     "@types/react-router-dom": "^4.3.1",
     "@types/simplemde": "^1.11.7",
     "inversify": "^5.0.1",
@@ -14,6 +15,7 @@
     "mobx-react": "^5.3.6",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-helmet": "^5.2.0",
     "react-markdown": "^4.0.3",
     "react-router-dom": "^4.3.1",
     "reflect-metadata": "^0.1.12",
