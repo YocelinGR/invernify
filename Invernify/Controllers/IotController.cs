@@ -21,5 +21,12 @@ namespace Invernify.Controllers
         {
             return _context.DeviceData.Select(_ => new HumidityDto(_));
         }
+
+        [HttpGet("last-humidity")]
+        public HumidityDto LastHumidity()
+        {
+            var x = _context.DeviceData.OrderBy(_ => _.Tt).LastOrDefault();
+            return x == null ? null : new HumidityDto(x);
+        }
     }
 }
